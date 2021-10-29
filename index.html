@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/favicon_io/favicon_io (2)/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@400;700&display=swap"
+        rel="stylesheet" />
+
+    <title>Saara's Portfolio</title>
+</head>
+
+<body>
+
+    <header id="top">
+        <div class="container">
+            <!-- ?? where container shoudl start ??
+            Before or aftre main nav? Margit's after, but why?   -->
+            <div class="main-nav" id="responsive-nav">
+
+                <div class="logo">
+                    <!--- **** add logo **** -->
+                    <h1>Saara Leppihalme</h1>
+                    <span class="navbar-hamburger" id="navbar-symbol">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                    <span class="navbar-close" id="close-symbol"><i class="fas fa-times"></i></span>
+                </div>
+
+                <ul class="navigator" id="nav-ul">
+                    <li><a href="#top">Home</a> </li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#abt-me">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#footer">Contact me</a></li>
+                    <li><a href="https://www.bc.fi/" target="_blank">BCH</a></li>
+                </ul>
+            </div>
+            <!-- ?? should container end here (now ends) ?? -->
+            <div class="hero-banner">
+                <h2 class="main-header">Welcome to meet a future Full Stack Developer</h2>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ?? should container start here or after projects section ?? -->
+        <div class="container">
+            <!-- ## PROJECTS part ## -->
+            <section id="projects">
+                <h3>
+                    Projects
+                </h3>
+                <div class="project-cards">
+                    <!-- named "content" in example  -->
+
+                    <div class="card">
+
+                        <img src="picturesPortfolio/joan-gamell-ZS67i1HLllo-unsplash.webp" alt="project wheels">
+                        <h4>Project One</h4>
+
+                        <p>Description of Project One
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, commodi.
+                        </p>
+                        <a href="#">Read more... </a>
+                    </div>
+
+                    <div class="card">
+                        <img src="picturesPortfolio/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg" alt="project wheels">
+                        <h4>Project Two</h4>
+
+                        <p>Description of Project Two
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, commodi.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci distinctio facilis enim
+                            praesentium repellendus iure odio! Eaque vitae officiis adipisci!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repellat nemo facere quaerat
+                        </p>
+                        <a href="#">Read more... </a>
+                    </div>
+
+                    <div class="card">
+                        <img src="http://lynxee.consulting/wp-content/uploads/2017/12/success-2081167_1280.jpg"
+                            alt="project wheels">
+                        <h4>Project Three</h4>
+                        <p>Description of Project Three
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, commodi.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta illum voluptatum facere
+                            officia ullam vel voluptates enim quaerat non maiores. Deleniti, aliquam consequatur atque
+                            alias vero ipsa soluta possimus reprehenderit!
+                        </p>
+                        <a href="#">Read more... </a>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ?? should container stop and start again, in this version not ??  -->
+            <!-- ## ABOUT me section ##  -->
+
+            <section id="abt-me">
+                <h3>
+                    About Me
+                </h3>
+                <img src="https://s3-eu-west-1.amazonaws.com/spro-trinity-wordpress-prod/wp-content/uploads/2019/10/come-with-me.gif"
+                    alt="me">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur veniam ad, amet possimus
+                    officiis
+                    quisquam inventore laboriosam repellendus optio, facilis, et quasi enim accusamus. Pariatur
+                    architecto
+                    facere tempore asperiores nisi ullam eligendi tempora, explicabo harum dolorem inventore
+                    deserunt
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quo temporibus obcaecati quia
+                    amet
+                    repellendus tenetur doloremque non earum quidem.</p>
+            </section>
+
+            <!-- ## SKILLS section  -->
+            <section id="skills">
+                <h3>
+                    Skills
+                </h3>
+                <div class="skills-content">
+                    <div class="skill-box">
+                        <h5 class="item-1">HTML & CSS</h5>
+                        <img class="icon item-2" src="assets/mycollection/png/005-html-5.png" alt="HTML logo">
+                        <img class="icon item-4" id="CSS-icon" src="assets/mycollection/png/008-css-3.png"
+                            alt="CSS logo">
+                        <progress id="progress-value" value="5" max="100"></progress>
+                    </div>
+                    <div class="skill-box">
+                        <h5 class="item-1">JAVASCRIPT</h5>
+                        <img class="icon item-3" src="assets/mycollection/png/002-javascript.png"
+                            alt="JaavaScript logo">
+
+                        <progress id="progress-value" value="5" max="100"></progress>
+                    </div>
+                    <div class="skill-box">
+                        <h5>OTHER CODING SKILLS <br><small>Python, Java, C#</small></h5>
+                        <img class="icon item-3" src="assets/mycollection/png/001-coding.png" alt="CODE">
+                        <progress id="progress-value" value="15" max="100">
+                        </progress>
+                    </div>
+                    <div class="skill-box">
+                        <h5>INTERNATIONAL SOURCING</h5>
+                        <img class="icon item-3" src="assets/mycollection/png/004-search-worldwide.png" alt="globe">
+                        <progress id="progress-value" value="80" max="100">
+                        </progress>
+                    </div>
+                    <div class="skill-box">
+                        <h5>SUPPLY CHAIN</h5>
+                        <img class="icon item-3" src="assets/mycollection/png/006-supply-chain-management.png"
+                            alt="globe">
+                        <progress id="progress-value" value="80" max="100">
+                            <!-- copy from above   -->
+                        </progress>
+                    </div>
+                    <div class="skill-box">
+                        <h5>PURCHASING</h5>
+                        <img class="icon item-3" src="assets/mycollection/png/003-international.png" alt="">
+                        <progress id="progress-value" value="70" max="100">
+                        </progress>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer id="footer">
+        <!-- ?? do we need first name and last name ?? -->
+        <div class="container">
+
+            <h3>LET'S CONNECT</h3>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="yrname">Your name</label>
+                    <input type="text" id="yrName" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Your email</label>
+                    <input type="email" id="email" />
+                </div>
+                <div class="form-group">
+                    <label for="yr-message">Your message to me</label>
+                    <textarea name="message" id="yr-message"></textarea>
+                </div>
+                <input type="submit" id="sendContact" value="SEND" />
+
+            </form>
+        </div>
+        <span id="leppis">
+            <img src="assets/favicon_io/favicon_io (1)/apple-touch-icon.png" alt="">
+        </span>
+        <p>
+            © 2021 Saara Leppihalme
+        </p>
+        </div>
+
+    </footer>
+    <div class="back-top-wrap">
+        <a href="#top" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+    </div>
+    <script type="text/javascript" src="portfolio.js"></script>
+</body>
+
+</html>
