@@ -1,7 +1,7 @@
 'use strict';
 const header = document.querySelector(".main-nav");
 //let text = document.querySelector(".main-header");
-const bt = document.querySelector(".back-top-wrap")
+const bt = document.querySelector(".back-to-top")
 
 
 
@@ -28,7 +28,7 @@ const scrollTopFunction = () => {
 }
 // main navigations' back-ground change 
 const scrollNavFunction = () => {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
     header.classList.add("bg");
   } else {
     header.classList.remove("bg");
