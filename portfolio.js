@@ -2,11 +2,6 @@
 const header = document.querySelector(".main-nav");
 const bt = document.querySelector(".back-to-top")
 
-//remove, shows only the height 
-window.addEventListener("scroll", function () {
-  console.log(window.pageYOffset + "px");
-})
-
 // happens when scrolled 
 window.onscroll = function () {
   scrollNavFunction();
