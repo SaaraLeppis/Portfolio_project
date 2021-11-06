@@ -3,7 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
+.gallery-header {
+  height: 10vh;
+}
 .gallery {
   display: grid;
   grid-template-columns: repeat(8, 1fr);

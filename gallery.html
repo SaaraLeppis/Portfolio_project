@@ -7,11 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="galleryStyle.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/logo/favicon_io (3)/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo/favicon_io (3)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/logo/favicon_io (3)/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo/favicon_io (3)/favicon-32x32.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
     <title>Gallery for Portfolio</title>
 </head>
 
 <body>
-    <header id="top">
+    <header class="gallery-header" id="top">
         <div class="container">
             <div class="main-nav">
                 <div class="logo">
@@ -22,17 +35,15 @@
                 </div>
 
                 <ul class="navigator" id="nav-ul">
-                    <li><a href="#top">Home</a> </li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#abt-me">About me</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="/index.html#top">Home</a> </li>
+                    <li><a href="/index.html#projects">Projects</a></li>
+                    <li><a href="/index.html#abt-me">About me</a></li>
+                    <li><a href="/index.html#skills">Skills</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="#footer">Contact me</a></li>
                     <li><a href="https://www.bc.fi/" target="_blank" rel="noreferrer">BCH</a></li>
                 </ul>
             </div>
-
-
         </div>
     </header>
 
@@ -78,29 +89,49 @@
     <footer id="footer">
 
         <div class="container">
-            <h3>Contact me </h3>
+
+            <h3>LET'S CONNECT</h3>
             <form id="contact-form">
                 <div class="form-group">
-                    <label for="yrname">Your name</label>
-                    <input type="text" id="yrName" />
+                    <label for="first-name">Your firstname</label>
+                    <input type="text" id="first-name" />
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Your lastname</label>
+                    <input type="text" id="last-name" />
                 </div>
                 <div class="form-group">
                     <label for="email">Your email</label>
                     <input type="email" id="email" />
                 </div>
-                <div class="form-group">
-                    <label for="yr-message">Your message to me</label>
+                <div class="form-group message">
+                    <label for="yr-message">Message to me</label>
                     <textarea name="message" id="yr-message"></textarea>
                 </div>
-                <input type="submit" id="sendContact" value="SEND" />
+                <input type="submit" id="send-contact" value="SEND" />
+                <div class="social-media">
+                    <a href="https://linkedin.com/in/saara-leppihalme" target="_blank" rel="noreferrer"><i
+                            class="fab fa-linkedin"></i></a>
+
+                    <a href="https://www.instagram.com/indys_igloo/?hl=en" target="_blank" rel="noreferrer"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/SaaraLeppis" target="_blank" rel="noreferrer"><i
+                            class="fab fa-github"></i>
+                    </a>
+                </div>
+            </form>
+
         </div>
-        </form>
+
         <p>
-            Copyright© Saara Leppihalme 2021
+            © 2021 Saara
         </p>
-        </main>
         </div>
+
     </footer>
+    <div class="back-top-wrap">
+        <a href="#top" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+    </div>
     <script type="text/javascript" src="portfolio.js"></script>
     </script>
 </body>
