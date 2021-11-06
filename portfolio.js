@@ -1,9 +1,6 @@
 'use strict';
 const header = document.querySelector(".main-nav");
-//let text = document.querySelector(".main-header");
 const bt = document.querySelector(".back-to-top")
-
-
 
 //remove, shows only the height 
 window.addEventListener("scroll", function () {
@@ -20,13 +17,12 @@ window.onscroll = function () {
 const scrollTopFunction = () => {
   if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
     bt.style.display = "block";
-    //bt.style.transition = "2s";
   }
   else {
     bt.style.display = "none";
   }
 }
-// main navigations' back-ground change 
+// main navigations' background change 
 const scrollNavFunction = () => {
   if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
     header.classList.add("bg");
@@ -35,38 +31,21 @@ const scrollNavFunction = () => {
   }
 };
 
-// mobile menu 
+// mobile menu - removed by clicking hamburger or selection 
 const navigator = document.getElementById("nav-ul");
-const hamburgerMenu = document.getElementById("navbar-hamburger");
-const closeMenu = document.getElementById("close-symbol")
+const hamburgerMenu = document.querySelector(".fa-bars");
 
-hamburgerMenu.addEventListener("click", function () {
-  navigator.classList.toggle("active")
-
-})
-closeMenu.addEventListener("click", function () {
-  navigator.style.display = "none";
-
-
+hamburgerMenu.addEventListener("click", () => {
+  navigator.classList.toggle("open");
 })
 
 
-/* const menuBar = document.querySelector("#nav-ul");
-menuBar.addEventListener("click", (event) => {
-  const element = event.target;
-  console.log(element.className)
-  if (element.className === "material-icons") {
-    doSomething()
+navigator.addEventListener("click", () => {
+  if (document.body.clientWidth < 577) {
+    navigator.classList.remove("open")
   }
+
 })
 
-function doSomething() {
-  const x = document.getElementById("responsive-nav");
-  if (x.className === "main-nav") {
-    x.className += " responsive";
-  } else {
-    x.className = "main-nav";
-  }
-} */
 
 
