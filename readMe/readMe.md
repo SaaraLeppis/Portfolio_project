@@ -24,8 +24,8 @@ Some photos converted to Webp-format
 ## Screenshots
 
 Couple of pictures of my page:
-![Hero banner area](/screenshots/Screenshot1_myPortfolio.png?raw=true "Screenshot of HTML")
-![Middle part's sections](/screenshots/Screenshot2_myPortfolio.png?raw=true "Screenshot of HTML")
+![Hero banner area](./screenshots/Screenshot1_myPortfolio.png?raw=true "Screenshot of HTML")
+![Middle part's sections](./screenshots/Screenshot2_myPortfolio.png?raw=true "Screenshot of HTML")
 
 ## Credits
 
