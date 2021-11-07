@@ -43,7 +43,6 @@ On front page:
 
 - J Lee (@babybluecat) on Unsplash
 - Aaron Burden (@aaronburden) on Unsplash
-- Joan Gamell (@gamell) on Unsplash
 - Noah Näf (@noahdavis) on Unsplash
 - Matrin Oslic
 
